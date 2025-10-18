@@ -293,7 +293,8 @@ blockquote {
 blockquote footer {
   margin-top: 0.5rem;
   font-size: 0.9rem;
-  color: var(--color-primary);
+  color: var(--color-dark-text);
+  font-weight: 600;
 }
 
 /* Clients */
@@ -336,7 +337,8 @@ blockquote footer {
 }
 
 .cta-banner .cta-button {
-  margin-top: 1.5rem;
+  display: inline-block;
+  margin-top: 2rem;
   background-color: var(--color-accent);
   color: var(--color-dark-text);
   box-shadow: 0 16px 30px rgba(208, 153, 104, 0.35);
