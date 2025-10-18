@@ -1,0 +1,15 @@
+<svg width="320" height="200" viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="200" rx="24" fill="#F4F8F6"/>
+  <rect x="40" y="48" width="240" height="104" rx="18" fill="#FFFFFF" stroke="#CFE2D9" stroke-width="2"/>
+  <rect x="60" y="66" width="72" height="16" rx="8" fill="#2CB1BC" opacity="0.25"/>
+  <rect x="60" y="108" width="88" height="16" rx="8" fill="#D09968" opacity="0.3"/>
+  <rect x="60" y="132" width="110" height="12" rx="6" fill="#0A2A4A" opacity="0.15"/>
+  <path d="M166 92C166 82.0589 174.059 74 184 74C193.941 74 202 82.0589 202 92C202 101.941 193.941 110 184 110C174.059 110 166 101.941 166 92Z" fill="#0A2A4A" opacity="0.18"/>
+  <path d="M214 92C214 82.0589 222.059 74 232 74C241.941 74 250 82.0589 250 92C250 101.941 241.941 110 232 110C222.059 110 214 101.941 214 92Z" fill="#2CB1BC" opacity="0.25"/>
+  <path d="M188 116H228C237.389 116 245 123.611 245 133V148H171V133C171 123.611 178.611 116 188 116Z" fill="#0A2A4A" opacity="0.2"/>
+  <path d="M140 116H180C189.389 116 197 123.611 197 133V148H123V133C123 123.611 130.611 116 140 116Z" fill="#2CB1BC" opacity="0.2"/>
+  <circle cx="184" cy="92" r="10" fill="#0A2A4A" opacity="0.45"/>
+  <circle cx="232" cy="92" r="10" fill="#2CB1BC" opacity="0.45"/>
+  <circle cx="156" cy="92" r="10" fill="#D09968" opacity="0.45"/>
+  <path d="M140 86C140 76.0589 148.059 68 158 68C167.941 68 176 76.0589 176 86C176 95.9411 167.941 104 158 104C148.059 104 140 95.9411 140 86Z" fill="#D09968" opacity="0.25"/>
+</svg>
