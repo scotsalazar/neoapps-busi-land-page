@@ -7,8 +7,6 @@
   trends that favour bold, expressive fonts【931423127781675†L152-L177】.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
-
 /* Colour variables for easy theming */
 :root {
   --color-primary: #0A2A4A; /* deep navy for trust */
