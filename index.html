@@ -11,6 +11,7 @@
     <meta name="description" content="Neo Tech Labs, Inc. builds custom automation apps, dashboards and management tools to streamline workflows across industries. Book a demo to transform your operations.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="script.js" defer></script>
     <!-- Insert analytics tracking code here (e.g. Google Analytics, Tag Manager) -->
 </head>
 <body>
@@ -197,7 +198,12 @@
         <div class="container">
             <h2>Contact Us</h2>
             <p>Let’s discuss your project. Fill out the form and our team will get back to you shortly.</p>
-            <form action="#" method="post" class="contact-form">
+            <form action="/api/contact" method="post" class="contact-form" novalidate>
+                <div class="honeypot-wrapper" aria-hidden="true">
+                    <label class="honeypot-label">Do not fill out this field
+                        <input type="text" name="website" tabindex="-1" autocomplete="off">
+                    </label>
+                </div>
                 <label>
                     <span>Name</span>
                     <input type="text" name="name" required>
@@ -215,6 +221,7 @@
                     <textarea name="message" rows="5"></textarea>
                 </label>
                 <button type="submit" class="cta-button">Send Message</button>
+                <p class="form-feedback" role="alert" aria-live="polite"></p>
             </form>
             <div class="contact-details">
                 <p><strong>Email:</strong> info@neotechlabs.com</p>
