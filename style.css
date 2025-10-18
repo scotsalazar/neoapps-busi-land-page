@@ -253,6 +253,18 @@ blockquote footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  position: relative;
+}
+
+.honeypot-wrapper {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .contact-form label {
@@ -277,6 +289,21 @@ blockquote footer {
 
 .contact-form button {
   grid-column: 1 / -1;
+}
+
+.form-feedback {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-weight: 500;
+  min-height: 1.5rem;
+}
+
+.form-feedback.success {
+  color: #0f7a34;
+}
+
+.form-feedback.error {
+  color: #c0392b;
 }
 
 .contact-details {
